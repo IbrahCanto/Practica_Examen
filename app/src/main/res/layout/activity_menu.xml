@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Menu"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Contenido gatuno aqui"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imagePizza"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="PizzaBoton"
+        android:src="@drawable/pizzamenu"
+        />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtpizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="140dp"
+            android:text="@string/PizzaNameMenu"
+            android:textColor="#FFFFFF"
+            android:textSize="65dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="589dp">
+
+
+        <ImageView
+            android:id="@+id/imagePepsi"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="PepsiBoton"
+            android:src="@drawable/pepsimenu" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/txtpepsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="360dp"
+            android:text="@string/PepsiNameMenu"
+            android:textColor="#FFFFFF"
+            android:textSize="65dp"
+            android:textStyle="bold"
+
+
+            />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp">
+
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="60dp"
+        android:onClick="Anterior"
+        android:textColor="#FFFFFF"
+        android:text="@string/btnAtrasToLogin"
+        />
+
+</LinearLayout>
+
+
+
+</RelativeLayout>
