@@ -1,9 +1,620 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuPepsi">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-130dp"
+        >
+
+        <TextView
+            android:id="@+id/txtprecio01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="140dp"
+            android:text="$14"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-130dp"
+        >
+
+        <TextView
+            android:id="@+id/txtprecio02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="140dp"
+            android:text="$12"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-130dp"
+        >
+
+        <TextView
+            android:id="@+id/txtprecio03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="140dp"
+            android:text="$10"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtprecio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="140dp"
+            android:text="$14"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtprecio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="140dp"
+            android:text="$12"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtprecio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="140dp"
+            android:text="$10"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-300dp">
+
+
+        <ImageView
+            android:id="@+id/imagePizza01"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="-120dp"
+            android:layout_marginBottom="20dp"
+            android:padding="20px"
+            android:src="@drawable/pepsi1" />
+
+
+        <ImageView
+            android:id="@+id/imagePizza02"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginBottom="20dp"
+            android:padding="20px"
+            android:src="@drawable/pepsi1" />
+
+        <ImageView
+            android:id="@+id/imagePizza03"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginBottom="20dp"
+            android:padding="20px"
+            android:src="@drawable/pepsi1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnaumntar01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btndisminuir01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnaumntar202"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btndisminuir202"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnaumntar303"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="355dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btndisminuir303"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/imagePizza1"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:padding="20px"
+            android:layout_marginTop="-120dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/pepsi1"
+            />
+
+
+        <ImageView
+            android:id="@+id/imagePizza2"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:padding="20px"
+            android:layout_marginTop="-120dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/pepsi1"
+            />
+
+        <ImageView
+            android:id="@+id/imagePizza3"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:padding="20px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/pepsi1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtcantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="270dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnaumntar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btndisminuir"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtcantidad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="270dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnaumntar2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btndisminuir2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtcantidad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="270dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnaumntar3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="355dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btndisminuir3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btncalcular"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginRight="10dp"
+            android:text="Calcular"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtcantidadtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="540dp"
+            android:text="Total"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnolvidecomprarpepsi"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="10dp"
+            android:text="Refrescos"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnfinalizar"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginRight="10dp"
+            android:text="Finalizar"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

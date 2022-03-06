@@ -7,7 +7,60 @@
     tools:context=".MenuPizza">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+        <TextView
+            android:id="@+id/txtprecio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="140dp"
+            android:text="$120"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtprecio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="140dp"
+            android:text="$140"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtprecio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="140dp"
+            android:text="$180"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -49,47 +102,257 @@
 
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtcantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="240dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginTop="220dp">
+        android:layout_height="wrap_content">
 
 
-        <CheckBox
-            android:id="@+id/chck1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:minHeight="48dp"
-            android:text="Pizza1"
-            android:textColor="#2E2E2E"
-            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btnaumntar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="35dp"
+            android:text="+" />
 
-
-        <CheckBox
-            android:id="@+id/chck2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:minHeight="48dp"
-            android:text="Pizza2"
-            android:textColor="#2E2E2E"
-            android:textSize="20sp" />
-
-
-
-        <CheckBox
-            android:id="@+id/chck3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:minHeight="48dp"
-            android:text="Pizza3"
-            android:textColor="#2E2E2E"
-            android:textSize="20sp" />
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btndisminuir"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="10dp"
+            android:textSize="35dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtcantidad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="240dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnaumntar2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="35dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btndisminuir2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="10dp"
+            android:textSize="35dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtcantidad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="240dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnaumntar3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="35dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btndisminuir3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="10dp"
+            android:textSize="35dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btncalcular"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginRight="10dp"
+            android:text="Calcular"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtcantidadtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="540dp"
+            android:text="Total"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnolvidecomprarpepsi"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="10dp"
+            android:text="Refrescos"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnfinalizar"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginRight="10dp"
+            android:text="Finalizar"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
 
 
 </RelativeLayout>
