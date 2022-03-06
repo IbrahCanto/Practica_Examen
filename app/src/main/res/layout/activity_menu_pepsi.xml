@@ -13,7 +13,7 @@
         >
 
         <TextView
-            android:id="@+id/txtprecio01"
+            android:id="@+id/txtpreciopepsi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
@@ -33,12 +33,12 @@
         >
 
         <TextView
-            android:id="@+id/txtprecio02"
+            android:id="@+id/txtpreciopepsilight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="190dp"
             android:layout_marginTop="140dp"
-            android:text="$12"
+            android:text="$14"
             android:textColor="#000000"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -54,74 +54,12 @@
         >
 
         <TextView
-            android:id="@+id/txtprecio03"
+            android:id="@+id/txtpreciopepsikick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="330dp"
-            android:layout_marginTop="140dp"
-            android:text="$10"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            android:textStyle="bold"
-
-            />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        >
-
-        <TextView
-            android:id="@+id/txtprecio1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
             android:layout_marginTop="140dp"
             android:text="$14"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            android:textStyle="bold"
-
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        >
-
-        <TextView
-            android:id="@+id/txtprecio2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="190dp"
-            android:layout_marginTop="140dp"
-            android:text="$12"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            android:textStyle="bold"
-
-            />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        >
-
-        <TextView
-            android:id="@+id/txtprecio3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="330dp"
-            android:layout_marginTop="140dp"
-            android:text="$10"
             android:textColor="#000000"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -133,22 +71,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="-300dp">
+        android:layout_marginTop="-310dp">
 
 
         <ImageView
-            android:id="@+id/imagePizza01"
+            android:id="@+id/imagepepsi"
             android:layout_width="120dp"
             android:layout_height="100dp"
             android:layout_gravity="center_vertical"
             android:layout_marginTop="-120dp"
             android:layout_marginBottom="20dp"
             android:padding="20px"
-            android:src="@drawable/pepsi1" />
+            android:src="@drawable/pepsi" />
 
 
         <ImageView
-            android:id="@+id/imagePizza02"
+            android:id="@+id/imagepepsilight"
             android:layout_width="120dp"
             android:layout_height="100dp"
             android:layout_gravity="center_vertical"
@@ -156,10 +94,10 @@
             android:layout_marginTop="-120dp"
             android:layout_marginBottom="20dp"
             android:padding="20px"
-            android:src="@drawable/pepsi1" />
+            android:src="@drawable/pepsilight" />
 
         <ImageView
-            android:id="@+id/imagePizza03"
+            android:id="@+id/imagepepsikick"
             android:layout_width="120dp"
             android:layout_height="100dp"
             android:layout_gravity="center_vertical"
@@ -167,40 +105,40 @@
             android:layout_marginTop="-120dp"
             android:layout_marginBottom="20dp"
             android:padding="20px"
-            android:src="@drawable/pepsi1" />
+            android:src="@drawable/pepsikick" />
 
     </LinearLayout>
 
+
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="-135dp"
         >
 
-
-        <Button
-            android:id="@+id/btnaumntar01"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:textColor="#FFFFFF"
-            android:layout_marginLeft="65dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="10dp"
+        <TextView
+            android:id="@+id/txtcantidadpepsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="270dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
             android:textSize="15dp"
-            android:text="+" />
+            android:textStyle="bold"
 
-
+            />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="140dp"
         >
 
 
         <Button
-            android:id="@+id/btndisminuir01"
+            android:id="@+id/btndisminuirpepsi"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
@@ -216,16 +154,16 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="140dp"
         >
 
 
         <Button
-            android:id="@+id/btnaumntar202"
+            android:id="@+id/btnaumntarpepsi"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
-            android:layout_marginLeft="220dp"
+            android:layout_marginLeft="65dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="10dp"
             android:textSize="15dp"
@@ -234,15 +172,38 @@
 
     </LinearLayout>
 
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-135dp"
+        >
+
+        <TextView
+            android:id="@+id/txtcantidadpepsilight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="270dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="140dp"
         >
 
 
         <Button
-            android:id="@+id/btndisminuir202"
+            android:id="@+id/btndisminuirpepsilight"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
@@ -258,12 +219,56 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="140dp"
         >
 
 
         <Button
-            android:id="@+id/btnaumntar303"
+            android:id="@+id/btnaumntarpepsilight"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-135dp"
+        >
+
+        <TextView
+            android:id="@+id/txtcantidadpepsikick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="270dp"
+            android:text="Seleccione"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnaumntarpepsikick"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
@@ -279,12 +284,12 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="140dp"
         >
 
 
         <Button
-            android:id="@+id/btndisminuir303"
+            android:id="@+id/btndisminuirpepsikic"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
@@ -296,6 +301,74 @@
 
 
     </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtpreciomirinda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="140dp"
+            android:text="$12"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtprecio7up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="140dp"
+            android:text="$12"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/txtpreciomanzanitasol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="140dp"
+            android:text="$12"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+
+
 
 
 
@@ -315,7 +388,7 @@
             android:padding="20px"
             android:layout_marginTop="-120dp"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/pepsi1"
+            android:src="@drawable/mirinda"
             />
 
 
@@ -328,7 +401,7 @@
             android:layout_marginTop="-120dp"
             android:layout_marginLeft="30dp"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/pepsi1"
+            android:src="@drawable/sieteup"
             />
 
         <ImageView
@@ -340,7 +413,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="-120dp"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/pepsi1" />
+            android:src="@drawable/manzanitasol" />
 
     </LinearLayout>
 
@@ -352,17 +425,39 @@
         >
 
         <TextView
-            android:id="@+id/txtcantidad"
+            android:id="@+id/txtcantidadmirinda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="270dp"
             android:text="Seleccione"
             android:textColor="#000000"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textStyle="bold"
 
             />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btndisminuirmirinda"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -373,7 +468,7 @@
 
 
         <Button
-            android:id="@+id/btnaumntar"
+            android:id="@+id/btnaumntarmirinda"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
@@ -386,26 +481,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        >
 
-
-        <Button
-            android:id="@+id/btndisminuir"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:textColor="#FFFFFF"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="300dp"
-            android:layout_marginRight="10dp"
-            android:textSize="15dp"
-            android:text="-" />
-
-
-    </LinearLayout>
 
 
 
@@ -417,39 +493,19 @@
         >
 
         <TextView
-            android:id="@+id/txtcantidad2"
+            android:id="@+id/txtcantidad7up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="140dp"
+            android:layout_marginLeft="165dp"
             android:layout_marginTop="270dp"
             android:text="Seleccione"
             android:textColor="#000000"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textStyle="bold"
 
             />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        >
-
-
-        <Button
-            android:id="@+id/btnaumntar2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:textColor="#FFFFFF"
-            android:layout_marginLeft="220dp"
-            android:layout_marginTop="300dp"
-            android:layout_marginRight="10dp"
-            android:textSize="15dp"
-            android:text="+" />
-
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -459,7 +515,7 @@
 
 
         <Button
-            android:id="@+id/btndisminuir2"
+            android:id="@+id/btndisminuir7up"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
@@ -472,6 +528,29 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnaumntar7up"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+
+
 
 
 
@@ -483,14 +562,14 @@
         >
 
         <TextView
-            android:id="@+id/txtcantidad3"
+            android:id="@+id/txtcantidadmanzanita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="270dp"
+            android:layout_marginLeft="300dp"
             android:layout_marginTop="270dp"
             android:text="Seleccione"
             android:textColor="#000000"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textStyle="bold"
 
             />
@@ -504,15 +583,15 @@
 
 
         <Button
-            android:id="@+id/btnaumntar3"
+            android:id="@+id/btndisminuirmanzanita"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
-            android:layout_marginLeft="355dp"
+            android:layout_marginLeft="300dp"
             android:layout_marginTop="300dp"
             android:layout_marginRight="10dp"
             android:textSize="15dp"
-            android:text="+" />
+            android:text="-" />
 
 
     </LinearLayout>
@@ -525,18 +604,20 @@
 
 
         <Button
-            android:id="@+id/btndisminuir3"
+            android:id="@+id/btnaumntarmanzanita"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#FFFFFF"
-            android:layout_marginLeft="300dp"
+            android:layout_marginLeft="355dp"
             android:layout_marginTop="300dp"
             android:layout_marginRight="10dp"
             android:textSize="15dp"
-            android:text="-" />
+            android:text="+" />
 
 
     </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -588,7 +669,7 @@
             android:layout_marginLeft="110dp"
             android:layout_marginTop="580dp"
             android:layout_marginRight="10dp"
-            android:text="Refrescos"
+            android:text="Pizzas"
             android:textColor="#FFFFFF"
             android:textSize="15dp" />
 
