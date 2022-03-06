@@ -41,7 +41,6 @@ public class MenuPizza extends AppCompatActivity {
         disminuir2=(Button) findViewById(R.id.btndisminuir2);
         disminuir3=(Button) findViewById(R.id.btndisminuir3);
         calcular = (Button) findViewById(R.id.btncalcular);
-        
 
         aumentar1.setOnClickListener(new View.OnClickListener() {
             @Override
