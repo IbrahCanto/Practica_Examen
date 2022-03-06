@@ -18,6 +18,12 @@ public class MenuPizza extends AppCompatActivity {
     int valorPizza2 = 0;
     int valorPizza3 = 0;
 
+    private static int valor1 =0;
+    private static int valor2 =0;
+    private static int valor3 =0;
+
+
+
 
 
     @Override
@@ -41,14 +47,14 @@ public class MenuPizza extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                     valorPizza1 = valorPizza1 + 120;
-                    cantidad.setText(String.valueOf("Pizza 1: " + valorPizza1));
+                    cantidad.setText(String.valueOf("Cantidad: " + ++valor1 + " \n" + "Total: $" + valorPizza1));
             }
         });
         disminuir1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 valorPizza1 = valorPizza1 - 120;
-                cantidad.setText(String.valueOf("Pizza 1: " + valorPizza1));
+                cantidad.setText(String.valueOf("Cantidad: " + --valor1 + " \n" + "Total: $" + valorPizza1));
             }
         });
 
@@ -56,29 +62,29 @@ public class MenuPizza extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 valorPizza2 = valorPizza2 + 140;
-                cantidad2.setText(String.valueOf("Pizza 2: " + valorPizza2));
+                cantidad2.setText(String.valueOf("Cantidad: " + ++valor2 + " \n" + "Total: $" + valorPizza2));
             }
         });
         disminuir2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 valorPizza2 = valorPizza2 - 140;
-                cantidad2.setText(String.valueOf("Pizza 2: " + valorPizza2));
+                cantidad2.setText(String.valueOf("Cantidad: " + --valor2 + " \n" + "Total: $" + valorPizza2));
             }
         });
 
         aumentar3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                valorPizza3 = valorPizza3 + 180;
-                cantidad3.setText(String.valueOf("Pizza 3: " + valorPizza3));
+                valorPizza3 = valorPizza3 + 140;
+                cantidad3.setText(String.valueOf("Cantidad: " + ++valor3 + " \n" + "Total: $" + valorPizza3));
             }
         });
         disminuir3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                valorPizza3 = valorPizza3 - 180;
-                cantidad3.setText(String.valueOf("Pizza 3: " + valorPizza3));
+                valorPizza3 = valorPizza3 - 140;
+                cantidad3.setText(String.valueOf("Cantidad: " + --valor3 + " \n" + "Total: $" + valorPizza3));
             }
         });
 

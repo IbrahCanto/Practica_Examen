@@ -12,17 +12,138 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/txtprecio1"
+            android:id="@+id/txtnamepizzapeperoni"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="140dp"
-            android:text="$120"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:text="Pizza de Pepperoni"
             android:textColor="#000000"
             android:textSize="20dp"
             android:textStyle="bold"
 
             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtpreciopizzapeperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="40dp"
+            android:text="Precio: $120"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtcantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="70dp"
+            android:text="Seleccione la cantidad"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btndisminuir"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnaumntar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imagePizzaPeperoni"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:padding="20px"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/pizzapeperoni"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtnamepizzamexicana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="170dp"
+            android:text="Pizza de Mexicana"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -33,134 +154,15 @@
             android:id="@+id/txtprecio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
-            android:layout_marginTop="140dp"
-            android:text="$140"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="200dp"
+            android:text="Precio: $140"
             android:textColor="#000000"
             android:textSize="20dp"
             android:textStyle="bold"
 
             />
     </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/txtprecio3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="250dp"
-            android:layout_marginTop="140dp"
-            android:text="$180"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            android:textStyle="bold"
-
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-
-        <ImageView
-            android:id="@+id/imagePizza1"
-            android:layout_width="120dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_vertical"
-            android:padding="20px"
-            android:layout_marginTop="100dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/pizzamenu"
-            />
-
-
-        <ImageView
-            android:id="@+id/imagePizza2"
-            android:layout_width="120dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_vertical"
-            android:padding="20px"
-            android:layout_marginTop="100dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/pizzamenu"
-            />
-
-        <ImageView
-            android:id="@+id/imagePizza3"
-            android:layout_width="120dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_vertical"
-            android:padding="20px"
-            android:layout_marginTop="100dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/pizzamenu" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/txtcantidad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="240dp"
-            android:text="Seleccione"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            android:textStyle="bold"
-
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-
-        <Button
-            android:id="@+id/btnaumntar"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:textColor="#FFFFFF"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="300dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35dp"
-            android:text="+" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-
-        <Button
-            android:id="@+id/btndisminuir"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:textColor="#FFFFFF"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="370dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35dp"
-            android:text="-" />
-
-
-    </LinearLayout>
-
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -170,32 +172,32 @@
             android:id="@+id/txtcantidad2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="140dp"
-            android:layout_marginTop="240dp"
-            android:text="Seleccione"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="230dp"
+            android:text="Seleccione la cantidad"
             android:textColor="#000000"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textStyle="bold"
 
             />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
-        <Button
-            android:id="@+id/btnaumntar2"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:textColor="#FFFFFF"
-            android:layout_marginLeft="150dp"
-            android:layout_marginTop="300dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35dp"
-            android:text="+" />
 
+        <ImageView
+            android:id="@+id/imagePizzaMexicana"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:padding="20px"
+            android:layout_marginTop="-110dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/pizzamexicana"
+            />
 
     </LinearLayout>
 
@@ -206,21 +208,74 @@
 
         <Button
             android:id="@+id/btndisminuir2"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:textColor="#FFFFFF"
-            android:layout_marginLeft="150dp"
-            android:layout_marginTop="370dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="260dp"
             android:layout_marginRight="10dp"
-            android:textSize="35dp"
+            android:textSize="15dp"
             android:text="-" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnaumntar2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="+" />
 
 
     </LinearLayout>
 
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+        <TextView
+            android:id="@+id/txtnamepizzapina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="330dp"
+            android:text="Pizza Hawaiana"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtprecio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="360dp"
+            android:text="Precio: $140"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -230,14 +285,52 @@
             android:id="@+id/txtcantidad3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="270dp"
-            android:layout_marginTop="240dp"
-            android:text="Seleccione"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="390dp"
+            android:text="Seleccione la cantidad"
             android:textColor="#000000"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textStyle="bold"
 
             />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagePizzaPiña"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:padding="20px"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/pizzapina" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btndisminuir3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="-" />
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -247,36 +340,19 @@
 
         <Button
             android:id="@+id/btnaumntar3"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:textColor="#FFFFFF"
             android:layout_marginLeft="270dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="420dp"
             android:layout_marginRight="10dp"
-            android:textSize="35dp"
+            android:textSize="15dp"
             android:text="+" />
 
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
 
-
-        <Button
-            android:id="@+id/btndisminuir3"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:textColor="#FFFFFF"
-            android:layout_marginLeft="270dp"
-            android:layout_marginTop="370dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35dp"
-            android:text="-" />
-
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
