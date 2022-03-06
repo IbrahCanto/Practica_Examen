@@ -22,7 +22,7 @@ tools:context=".Menu"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Contenido gatuno aqui"
+            android:text=""
             android:textColor="#000000"
             android:textSize="20dp"
             android:textStyle="italic" />
@@ -118,7 +118,7 @@ tools:context=".Menu"
         android:layout_marginLeft="60dp"
         android:onClick="Anterior"
         android:textColor="#FFFFFF"
-        android:text="@string/btnAtrasToLogin"
+        android:text="Cerrar Sesion"
         />
 
 </LinearLayout>

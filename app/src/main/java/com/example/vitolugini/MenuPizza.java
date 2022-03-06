@@ -2,6 +2,7 @@ package com.example.vitolugini;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -110,6 +111,12 @@ public class MenuPizza extends AppCompatActivity {
 
 
 
+
+    }
+
+    public void Anterior (View view){
+        Intent anterior = new Intent(this, MainActivity.class);
+        startActivity(anterior);
 
     }
 }

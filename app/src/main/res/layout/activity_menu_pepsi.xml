@@ -659,20 +659,21 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
 
 
         <Button
-            android:id="@+id/btnolvidecomprarpepsi"
+            android:id="@+id/btnregresar"
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:layout_marginLeft="110dp"
-            android:layout_marginTop="580dp"
+            android:layout_marginTop="650dp"
             android:layout_marginRight="10dp"
-            android:text="Pizzas"
             android:textColor="#FFFFFF"
-            android:textSize="15dp" />
-
+            android:onClick="Anterior"
+            android:text="Cancelar"
+            />
 
     </LinearLayout>
 
@@ -686,7 +687,7 @@
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:layout_marginLeft="110dp"
-            android:layout_marginTop="650dp"
+            android:layout_marginTop="580dp"
             android:layout_marginRight="10dp"
             android:text="Finalizar"
             android:textColor="#FFFFFF"
